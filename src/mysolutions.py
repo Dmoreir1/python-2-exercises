@@ -1,5 +1,7 @@
 from ex5 import WordCounter
 from ex6 import TaxMan
+from ex7 import Calculator
+from ex8 import CarCollector
 
 # def hello():
 #     print('Hello exercises for Python II!')
@@ -24,8 +26,23 @@ def main():
     tm.calc_total()
     print(tm.get_total())
 
+    calculator1 = Calculator(4, 3)
+    calculator1.add()
+    print(calculator1.get_result())
 
+    calculator2 = Calculator(4, 3)
+    calculator2.sub()
+    print(calculator2.get_result())
 
+    calculator3 = Calculator(2, 3)
+    calculator3.mul()
+    print(calculator3.get_result())
+
+    calculator4 = Calculator(8, 2)
+    calculator4.div()
+    print(calculator4.get_result())
+
+    print(CarCollector.get_data())
 
 main()
 

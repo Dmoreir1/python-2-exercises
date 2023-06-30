@@ -250,7 +250,7 @@ Complete the `_combine()` method so that the `get_data()` method returns the fol
 
 Usage:
 ```python
-  pprint(CarCollector.get_data())
+  print(CarCollector.get_data())
 ```
 Create the `CarCollector` class in your src directory and don't forget to import it in your `solutions.py` file.
 
